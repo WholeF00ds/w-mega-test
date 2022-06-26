@@ -1,2 +1,230 @@
---// unfinished
-print("bruh")
+wait(0.6)
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Loading MegaHub";
+    Text = "Subscribe to Squidfan420. you retards lolololol";
+    Duration = 6;
+})
+wait(4.25)
+
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("MegaHub v1.2", "Ocean")
+
+local Tab = Window:NewTab("Scripts")
+
+local ScriptsSection = Tab:NewSection("Arsenal")
+
+ScriptsSection:NewButton("Darkrai X", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/arsenal-hub/main/Arsenal%20GamingScripter", true))()
+end)
+
+ScriptsSection:NewButton("RGB Hax", "ButtonInfo", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/ColdStep2/Arsenal-Green-Box-Script-Original-/main/Arsenal%20Green%20Box%20Script%20(Original)'),true))() 
+end)
+
+ScriptsSection:NewButton("Project BS", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/uw2P2fbY", true))()
+end)
+
+local ScriptsSection = Tab:NewSection("Blox Fruits")
+
+ScriptsSection:NewButton("ThunderZ", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Script"))()
+end)
+
+ScriptsSection:NewButton("Ripper Hub", "ButtonInfo", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/hajibeza/RIPPER-HUB/main/BFMobile.lua'))()
+end)
+
+ScriptsSection:NewButton("Bf String", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/OPPV01/DEX/main/Protected.lua.txt", true))()
+end)
+
+local ScriptsSection = Tab:NewSection("Da Hood")
+
+ScriptsSection:NewButton("Faded UI", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+end)
+
+ScriptsSection:NewButton("Nukermode", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Allvideo/test/main/Whitelist.txt"))() 
+end)
+
+ScriptsSection:NewButton("Raycodex", "ButtonInfo", function()
+    loadstring(game:GetObjects("rbxassetid://5812737894")[1].Source)()
+end)
+
+local ScriptsSection = Tab:NewSection("Bedwars")
+
+ScriptsSection:NewButton("Jn HH Gaming V7", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming123/JN-Bedwars-V7/main/JN%20Bedwars%20V7",true))()
+end)
+
+ScriptsSection:NewButton("Future (Keyboard)", "ButtonInfo", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/joeengo/Future/main/loadstring.lua', true))()
+end)
+
+ScriptsSection:NewButton("Noon Bed", "ButtonInfo", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/ColdStep2/Noon-Bed-Source/main/Noon%20Bed%20Source'),true))()
+end)
+
+local ScriptsSection = Tab:NewSection("Murder Mystery 2")
+
+ScriptsSection:NewButton("Admin Panel", "ButtonInfo", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/ColdStep2/Vynixu-Panel-Source/main/Vynixu%20Panel%20Source'),true))()
+end)
+
+ScriptsSection:NewButton("Vynixu's Gui", "ButtonInfo", function()
+    loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+end)
+
+ScriptsSection:NewButton("Bluemode", "ButtonInfo", function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/B5vEGmHj'),true))()
+end)  
+
+local ScriptsSection = Tab:NewSection("Jailbreak")
+
+ScriptsSection:NewButton("Unpatched V2", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/xFB3guNv", true))()
+end)
+
+ScriptsSection:NewButton("Jailbroken", "ButtonInfo", function()
+    loadstring(game:GetObjects("rbxassetid://3762448307")[1].Source)()
+end)
+
+ScriptsSection:NewButton("Prison Breaker", "ButtonInfo", function()
+    loadstring(game:GetObjects("rbxassetid://03774822542")[1].Source)()
+end)
+
+local ScriptsSection = Tab:NewSection("Tower of Hell")
+
+ScriptsSection:NewButton("OP Gui", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/iiProductionz/Floater-Scripts/main/WaifuEdition/Tower%20Of%20Hell"))()
+end)
+
+ScriptsSection:NewButton("Admin Cmds", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TwomadJR/nto/main/admiin"))()
+end)
+
+ScriptsSection:NewButton("TheMystery Script", "ButtonInfo", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/BbVHjH56'))()
+end)
+
+local ScriptsSection = Tab:NewSection("Brookhaven")
+
+ScriptsSection:NewButton("IceHub", "ButtonInfo", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/IceMael7/Kill/main/Brookhaven'))()
+end)
+
+ScriptsSection:NewButton("Abuse Gui", "ButtonInfo", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/ColdStep2/Abuse-gui-/main/Abuse%20gui'),true))()
+end)
+
+ScriptsSection:NewButton("Coolkid Not FE", "ButtonInfo", function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/4CinP9WE'),true))()
+end) 
+
+local ScriptsSection = Tab:NewSection("Prison Life")
+
+ScriptsSection:NewButton("Red Commands", "ButtonInfo", function()
+    loadstring(game:HttpGet(('https://pastebin.com/raw/tmWQWXxH'),true))()
+end)
+
+ScriptsSection:NewButton("Hercules Gui", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/dJ6tcE7h", true))()
+end)
+
+ScriptsSection:NewButton("Crash Server", "ButtonInfo", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/ColdStep2/Prison-Life-Crasher-Obfuscated/main/Prison%20Life%20Crasher%20Obfuscated'),true))()
+end) 
+
+local ScriptsSection = Tab:NewSection("Anime Fighters")
+
+ScriptsSection:NewButton("Hyper Gui", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Shisobad/new/main/script.lua"))()
+end)
+
+ScriptsSection:NewButton("HH Hub", "ButtonInfo", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+end)
+
+ScriptsSection:NewButton("TinyTask (Keyboard)", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Gohan9k/ANFS/main/GOHANSSJ3revived"))()
+end)
+
+local ScriptsSection = Tab:NewSection("King Legacy")
+
+ScriptsSection:NewButton("Ripper Autofarm", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/hajibeza/RIPPER-HUB/main/King%20Leagacy"))()
+end)
+
+ScriptsSection:NewButton("Noob Hub", "ButtonInfo", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/SHAREHACK/script/main/kl'))()
+end)
+
+ScriptsSection:NewButton("Strike", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/StormSKz12/StirkeHub1/main/Gameincluded"))()
+end)  
+
+local ScriptsSection = Tab:NewSection("Clicker Simulator")
+
+ScriptsSection:NewButton("Project Meow", "ButtonInfo", function()
+    _G.Key = "Bgt543fdnvuigfjkdfegay"
+    loadstring(game:HttpGet"https://rawscripts.net/raw/Project-Meow_421")()
+end)
+ 
+ScriptsSection:NewButton("Script.gg", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Kederal/script.gg/main/loader.lua"))()
+end)
+
+ScriptsSection:NewButton("Autoclick Gui", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/harisiskandar178/5repo/main/script4.lua"))()
+end)  
+
+local ScriptsSection = Tab:NewSection("Shindo Life")
+
+ScriptsSection:NewButton("Lite Autofarm", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Premier/main/Free-Premier.lua", true))()
+end)  
+
+ScriptsSection:NewButton("Infinite Spins", "ButtonInfo", function()
+    Credits = [[
+        THIS IS CREDITS, DON'T TOUCH IT OR SCRIPT WON'T WORK
+ 
+        This script actually is actually FREE! and it can be found by a faker who releases this script under their name
+        without giving credits to me, and making people go through many ads to get it
+        or even making it paid, but whole time its free, make sure you get it from the source!
+        Where to buy: https://www.tech-brain.net/product-page/shindo-life-infinite-spinning
+ 
+        List of bloodlines and stuff is in the channel named #scripts-and-website, and many
+        other steps on how to use the script correctly Discord Server: https://discord.gg/8KqTZVcfCP
+ 
+        Myself, the real owner and the creator of this script is Tech Brain#0001
+        If you got this from a fake, send their info to me at Tech Brain#0001 in the discord
+        Discord Server: https://discord.gg/8KqTZVcfCP or discord.io/techbrain
+]]
+ 
+function GetHttp(URL)
+    local returning = nil
+    repeat
+        pcall(function()
+            returning = game:HttpGet(URL,true)
+        end)
+        if returning == nil then
+            warn("Failed to get "..URL)
+            wait(0.5)
+        end
+    until returning ~= nil
+    return returning
+end
+ 
+got = GetHttp("https://gist.githubusercontent.com/TechyBrain/0cae69c69880daa4355e3c3a46191ae4/raw")
+loadstring(got)()
+end)  
+
+ScriptsSection:NewButton("Project Shindo", "ButtonInfo", function()
+    pcall(loadstring(game:HttpGet("https://raw.githubusercontent.com/L1ZOT/Project-PJM/main/shinido"))())
+end) 
+
+local Tab = Window:NewTab("Scripts [2]")
+
+local Scripts2Section = Tab:NewSection("Example Text") 
